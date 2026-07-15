@@ -2,7 +2,7 @@
 
 A normalized HR analytics data warehouse built in MySQL, covering headcount, employment history, attendance, performance, recruitment, and Nigerian statutory payroll compliance — connected to a Power BI dashboard for turnover, attrition, and compensation-cost analysis.
 
-This project follows on from an earlier [stock market investment analysis portfolio project](#), moving from financial time-series analysis into HR/people analytics with a Nigeria-specific compliance layer (PAYE, PENCOM, NHF, NSITF, ITF).
+This project follows on from an earlier [[stock market investment analysis portfolio project](https://github.com/muhammed2624/Stock-Market-Analysis)](#), moving from financial time-series analysis into HR/people analytics with a Nigeria-specific compliance layer (PAYE, PENCOM, NHF, NSITF, ITF).
 
 ---
 
