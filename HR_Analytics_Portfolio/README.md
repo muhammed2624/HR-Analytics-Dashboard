@@ -16,7 +16,7 @@ The database models the full employee lifecycle — from job requisition and app
 
 The schema is built around `employees` as the central table, with dedicated tables separating operational HR data (attendance, performance) from compliance-sensitive payroll data, and a two-table recruitment funnel (`job_requisitions` → `applicants`) that feeds into `employees` once someone is hired.
 
-*(See `/docs/erd.png` for the full diagram — export this from Workbench via Database → Reverse Engineer, or from the diagram shared during development.)*
+*(See `/docs/erd.png` for the full diagram.)*
 
 **Tables:** `departments`, `job_titles`, `employees`, `employment_history`, `attendance`, `performance_reviews`, `payroll`, `exit_interviews`, `job_requisitions`, `applicants`
 
@@ -52,7 +52,7 @@ The repo includes a seed script (`hr_analytics_seed_data.sql`) generating a real
 - **Customer Service carries the largest active headcount** (12 of 41 active employees), followed by Operations (9).
 - Turnover, exit-reason, and payroll-cost trends are broken down month-by-month and department-by-department in the corresponding views — see `v_monthly_turnover` and `v_attrition_by_reason` for the full breakdown.
 
-*(Replace this section with the actual headline numbers from your own Power BI dashboard once finalized — these are illustrative from the seed data.)*
+
 
 ## Files in this Repo
 
